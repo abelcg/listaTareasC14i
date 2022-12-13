@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Container>
-        <Titulo />
+        <Titulo comision='14i' estado={true} />
         <Subtitulo></Subtitulo>
       </Container>
     </div>

@@ -7,7 +7,6 @@ const Estado = ({comision , estado}) => {
             {estado ? <Alert variant="info">
                 La comision {comision} esta habitada
             </Alert> : null }
-            
         </div>
     );
 };

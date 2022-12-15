@@ -17,7 +17,7 @@ function App() {
         <Titulo comision='14i' estado={habilitada} />
         <Subtitulo></Subtitulo>
         <div className="text-center">
-          <button className="btn btn-primary text-center" onClick={()=>setHabilitada(!habilitada)}>Deshabilitar</button>
+          <button className="btn btn-primary text-center" onClick={()=>setHabilitada(!habilitada)}>Habilitar</button>
         </div>
         <FormTareas></FormTareas>
       </Container>
